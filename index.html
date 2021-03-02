@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>sorting algorithm</title>
+        <script type="text/javascript" src="./src/graph/index.js"></script>
+        <script type="text/javascript" src="./src/bubble-sort/index.js"></script>
+        <script type="text/javascript" src="./src/radix-sort/index.js"></script>
+    </head>
+    <body>
+        <div id="bubble-sort">
+            <button type="button" id="bubble-sort-button" onclick="new BubbleSort().algorithm([8,9,4,5,6,1,2,3,6,7,2,10,32,21,24,45,34,22,16,15,18,90,34,25,67,57,48,35,45,55,66,77,88,99,89,78,67,56,45,34,2,3,100,6,199,189,289,388,233,201,203,205,206,209,211,213,215,217,219,222,224,226,229,235,237,238,245,247,256,253,234,246,123,122,125,134,135,137,139,145,134,156,125,121])">バブルソート</button>
+        </div>
+        <div style="display: flex;">
+            <div id="radix-sort">
+                <button type="button" id="radix-sort-button" onclick="new RadixSort().algorithm([8,9,4,5,6,1,2,3,6,7,2,10,32,21,24,45,34,22,16,15,18,90,34,25,67,57,48,35,45,55,66,77,88,99,89,78,67,56,45,34,2,3,100,6,199,189,289,388,233,201,203,205,206,209,211,213,215,217,219,222,224,226,229,235,237,238,245,247,256,253,234,246,123,122,125,134,135,137,139,145,134,156,125,121])">基数ソート</button>
+            </div>
+            <div id="radix-sort-buckets" style="margin-left: 50px;"></div>
+        </div>
+    </body>
+</html>
