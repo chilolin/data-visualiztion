@@ -2,8 +2,8 @@
   "name": "data-visualization",
   "version": "1.0.0",
   "description": "",
-  "main": "src",
   "scripts": {
+    "start": "http-server ./src",
     "test": "jest --watchAll"
   },
   "author": "",
@@ -16,6 +16,7 @@
     "jest": "^26.6.3"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "http-server": "^0.12.3"
   }
 }
